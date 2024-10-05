@@ -6,7 +6,7 @@ This project seeks to examine the relationship between studying abroad and menta
 
 ## Objective  
 
-The goal of this analysis is to explore the student data using PostgreSQL to determine whether a similar conclusion can be drawn for international students. Additionally, we will investigate whether the length of stay in the host country correlates with the mental health outcomes of these students.  
+The goal of this analysis is to explore the student data using PostgreSQL to determine whether a similar conclusion can be drawn for international students. Additionally, I investigated whether the length of stay in the host country correlates with the mental health outcomes of these students.  
 
 ## Dataset Description  
 
