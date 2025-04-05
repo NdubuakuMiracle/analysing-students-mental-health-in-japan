@@ -1,5 +1,3 @@
-Certainly! Here's a ReadME markdown format tailored for your GitHub repository:
-
 ```markdown
 # Mental Health Analysis of International Students in Japan
 
