@@ -1,4 +1,4 @@
-```markdown
+```
 # Mental Health Analysis of International Students in Japan
 
 ## Overview
@@ -61,7 +61,4 @@ To replicate this analysis:
 2. Run the Python scripts to connect the database and load the dataset.
 3. Execute SQL queries provided for in-depth analysis.
 
----
-
-Feel free to update the repository with this format! Let me know if you'd like any additional adjustments. 😊
 ```
