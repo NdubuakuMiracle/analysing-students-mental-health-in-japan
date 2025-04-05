@@ -1,12 +1,10 @@
----
-
 ## Mental Health Analysis of International Students in Japan
 
 ### Overview
 This project explores how studying abroad impacts mental health. A Japanese international university conducted a study in 2018, finding that international students face higher risks of mental health difficulties than the general population. Factors such as social connectedness and acculturative stress were identified as predictors of depression.
 
 ### Analysis Goals
-Using PostgreSQL and the provided dataset, this analysis aims to:
+Using PostgreSQL, Python and the provided dataset, this analysis aims to:
 - Validate findings that international students are at a higher risk for mental health challenges.
 - Examine whether the duration of stay influences mental health outcomes.
 
@@ -44,7 +42,3 @@ The dataset includes these key columns:
 ### Conclusions
 - International students face greater mental health challenges due to factors like cultural adaptation and social connectedness.
 - Length of stay correlates with mental health outcomes, but the relationship varies across different scores.
-
----
-
-Let me know if you'd like me to refine the summary further or include additional insights!
