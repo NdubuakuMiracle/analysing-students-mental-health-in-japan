@@ -1,22 +1,17 @@
-```
-# Mental Health Analysis of International Students in Japan
+---
 
-## Overview
-Does going to university in a different country affect your mental health?  
-A Japanese international university surveyed its students in 2018 and published a study the following year, approved by several ethical and regulatory boards.
+## Mental Health Analysis of International Students in Japan
 
-The study found that:
-- International students have a higher risk of mental health difficulties than the general population.
-- Social connectedness (belonging to a social group) and acculturative stress (stress associated with joining a new culture) are predictive of depression.
+### Overview
+This project explores how studying abroad impacts mental health. A Japanese international university conducted a study in 2018, finding that international students face higher risks of mental health difficulties than the general population. Factors such as social connectedness and acculturative stress were identified as predictors of depression.
 
-## Goal of the Analysis
-The goal of this analysis is to explore the students' data table (originally downloaded as a CSV from DataCamp) using PostgreSQL to:
+### Analysis Goals
+Using PostgreSQL and the provided dataset, this analysis aims to:
 - Validate findings that international students are at a higher risk for mental health challenges.
 - Examine whether the duration of stay influences mental health outcomes.
 
-## Dataset Description
-The dataset contains the following columns:
-
+### Dataset Insights
+The dataset includes these key columns:
 | Column Name       | Description                                                     |
 |-------------------|-----------------------------------------------------------------|
 | `inter_dom`       | Type of student (international or domestic).                    |
@@ -29,36 +24,27 @@ The dataset contains the following columns:
 | `tosc`            | Social connectedness score (SCS).                               |
 | `toas`            | Acculturative stress score (ASISS).                             |
 
-## Analysis Summary
-
-### Key Findings:
-1. **Student Demographics**:
+### Findings
+1. **Student Demographics:**
    - Majority (201 students) are international, while domestic students total 67.
-   - The dataset is predominantly composed of international students.
+   - The dataset primarily represents international students in Japan.
 
-2. **Mental Health Scores by Length of Stay**:
-   - **International Students**:
-     - Depression (PHQ-9): Scores ranged from 0.00 to 13.00, with higher scores for shorter stays.
-     - Social connectedness (SCS): Scores improved slightly with longer stays but varied.
-     - Acculturative stress (ASISS): Stress peaked for mid-length stays but remained substantial for shorter stays.
-   - **Domestic Students**:
-     - Depression and stress scores were comparatively lower, suggesting that studying abroad has a significant impact on mental health.
+2. **Mental Health Scores by Length of Stay (International Students):**
+   - Average scores across lengths of stay:
+     - **PHQ-9 Depression**: Scores ranged from 0.00 to 13.00, with higher scores for shorter stays.
+     - **SCS Connectedness**: Scores improved slightly with longer stays but varied.
+     - **ASISS Stress**: Stress peaked for mid-length stays but remained substantial for shorter stays.
 
-3. **Japanese Proficiency**:
-   - Students displayed varying levels of Japanese proficiency, with a substantial proportion categorized as “low,” highlighting adaptation challenges for international students.
+3. **Domestic Students:**
+   - Depression (PHQ-9) and stress (ASISS) scores were relatively lower compared to international students, indicating that studying abroad impacts mental health more significantly.
 
-### Conclusions:
-- **International students** are more prone to mental health difficulties due to factors like cultural adaptation and social connectedness.
-- Length of stay influences mental health outcomes, though the relationship varies across different metrics (depression, connectedness, stress).
+4. **Japanese Proficiency:**
+   - Analysis shows a mix of proficiency levels, with many students categorized as "low," hinting at adaptation challenges for international students.
 
-## Technologies Used
-- **Python**: For data preprocessing and analysis.
-- **PostgreSQL**: For efficient database querying and management.
+### Conclusions
+- International students face greater mental health challenges due to factors like cultural adaptation and social connectedness.
+- Length of stay correlates with mental health outcomes, but the relationship varies across different scores.
 
-## Instructions
-To replicate this analysis:
-1. Clone the repository and set up the PostgreSQL database.
-2. Run the Python scripts to connect the database and load the dataset.
-3. Execute SQL queries provided for in-depth analysis.
+---
 
-```
+Let me know if you'd like me to refine the summary further or include additional insights!
