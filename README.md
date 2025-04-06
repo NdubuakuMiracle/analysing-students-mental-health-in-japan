@@ -1,6 +1,6 @@
 ## Mental Health Analysis of International Students in Japan
 
-### Overview
+### Project Overview
 This project explores how studying abroad impacts mental health. A Japanese international university conducted a study in 2018, finding that international students face higher risks of mental health difficulties than the general population. Factors such as social connectedness and acculturative stress were identified as predictors of depression.
 
 ### Analysis Goals
